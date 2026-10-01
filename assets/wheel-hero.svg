@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" role="img" aria-labelledby="title desc">
+  <title id="title">Кованый автомобильный диск</title>
+  <desc id="desc">Тёмный многоспицевый диск с металлической окантовкой и центральной ступицей.</desc>
+  <defs>
+    <radialGradient id="tire" cx="40%" cy="34%" r="68%"><stop stop-color="#303b40"/><stop offset=".68" stop-color="#11191e"/><stop offset="1" stop-color="#05090b"/></radialGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8e9ba0"/><stop offset=".22" stop-color="#d2d8d7"/><stop offset=".48" stop-color="#4d5a60"/><stop offset=".74" stop-color="#aab4b5"/><stop offset="1" stop-color="#303b40"/></linearGradient>
+    <linearGradient id="spoke" x1="0" y1="0" x2="1" y2=".2"><stop stop-color="#263238"/><stop offset=".28" stop-color="#bcc5c5"/><stop offset=".53" stop-color="#58676c"/><stop offset=".78" stop-color="#dbe0df"/><stop offset="1" stop-color="#273239"/></linearGradient>
+    <radialGradient id="hub"><stop stop-color="#d4dcdb"/><stop offset=".35" stop-color="#47545a"/><stop offset=".7" stop-color="#1b252a"/><stop offset="1" stop-color="#718087"/></radialGradient>
+  </defs>
+  <circle cx="350" cy="350" r="337" fill="#060a0c" stroke="#65747a" stroke-width="3"/>
+  <circle cx="350" cy="350" r="319" fill="url(#tire)" stroke="#161f24" stroke-width="12"/>
+  <circle cx="350" cy="350" r="289" fill="#121a1e" stroke="url(#face)" stroke-width="8"/>
+  <circle cx="350" cy="350" r="267" fill="#202a2f" stroke="#849095" stroke-width="3"/>
+  <g fill="url(#spoke)" stroke="#d3d9d8" stroke-opacity=".38" stroke-width="2">
+    <path d="M340 91h20l30 204-40 27-40-27z"/>
+    <path d="M340 91h20l30 204-40 27-40-27z" transform="rotate(36 350 350)"/>
+    <path d="M340 91h20l30 204-40 27-40-27z" transform="rotate(72 350 350)"/>
+    <path d="M340 91h20l30 204-40 27-40-27z" transform="rotate(108 350 350)"/>
+    <path d="M340 91h20l30 204-40 27-40-27z" transform="rotate(144 350 350)"/>
+    <path d="M340 91h20l30 204-40 27-40-27z" transform="rotate(180 350 350)"/>
+    <path d="M340 91h20l30 204-40 27-40-27z" transform="rotate(216 350 350)"/>
+    <path d="M340 91h20l30 204-40 27-40-27z" transform="rotate(252 350 350)"/>
+    <path d="M340 91h20l30 204-40 27-40-27z" transform="rotate(288 350 350)"/>
+    <path d="M340 91h20l30 204-40 27-40-27z" transform="rotate(324 350 350)"/>
+  </g>
+  <circle cx="350" cy="350" r="226" fill="none" stroke="#c3cbca" stroke-opacity=".48" stroke-width="5"/>
+  <circle cx="350" cy="350" r="101" fill="#11191d" stroke="url(#face)" stroke-width="8"/>
+  <circle cx="350" cy="350" r="77" fill="url(#hub)" stroke="#b6c0c0" stroke-width="3"/>
+  <g fill="#101619" stroke="#94a0a2" stroke-width="3">
+    <circle cx="350" cy="290" r="10"/><circle cx="407" cy="331" r="10"/><circle cx="385" cy="398" r="10"/><circle cx="315" cy="398" r="10"/><circle cx="293" cy="331" r="10"/>
+  </g>
+  <circle cx="350" cy="350" r="24" fill="#11191d" stroke="#c7cfce" stroke-width="4"/>
+  <circle cx="350" cy="350" r="9" fill="#39d7ed"/>
+</svg>
